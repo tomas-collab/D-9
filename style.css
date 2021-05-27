@@ -1,0 +1,38 @@
+body {
+    background-color: black;
+    color: white;
+    max-width: 1280px;
+    margin: 0 auto;
+    font-family: "Nunito", sans-serif;
+}
+
+
+
+#cell-container {
+    border-style: solid;
+    display: flex;
+    flex-wrap: wrap;
+    width:600px;
+    height: 600px;
+    border-color: #292929;
+    border-width: 3px;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+
+.cell {
+    background-color: rgb(14 14 14);
+    width:100px;
+    height: 100px;
+    border-style: solid;
+    border-color: rgb(14 14 14);
+    border-radius: 8px;
+   
+    
+}
+
+button{
+
+    background-color: green;
+}
